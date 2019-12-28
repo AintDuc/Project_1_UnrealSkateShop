@@ -1,0 +1,6 @@
+﻿- spacing
+- slider nên cố định lại
+- tư duy responsive
+- mục đích chính, phụ
+- nav cảm giác khó chịu
+- video full

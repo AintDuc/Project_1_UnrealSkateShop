@@ -1,0 +1,43 @@
+﻿- 1 Page chính gồm các page phụ 
++ Deck
++ Trucks
++ Wheels
++ Berrings
++ Phụ Kiện cho ván
+- kèm theo các brands
+
+- Có page Show ảnh skakelife
++ display: grid
++ ảnh nào đã xem rồi: thì chạy lên trên cùng, opacity đi 0.5
+
+- Page show video trượt khắp thế giới
+- dạng sách, lật từng trang - video tiếp theo
+
+
++ Chia thành từng phần, mỗi phần chứa video demo và link youtobe, background phù hợp
++ Tiêu đề trượt nước nào, do ai làm hướng dẫn viên du lịch.
+
+- page main có slide show các sản phầm
+
+- minimalism page
+
+- có fillter lọc phụ kiện theo brand, theo size, lọc theo giá.
+
+- có trang đặt hàng chứa thông tin: Giá, số lượng, Tổng tiền
+
+- Thanh nav gồm, home, picture, video, contact.
+
+- 
+
+- 1 form gửi feed back
+
+
+- Template:
++ https://uicookies.com/demo/#connect (main page)
++ https://saigonskateshop.net/ (Lấy ảnh) (1 số phần)
++ https://www.warehouseskateboards.com/atm-skateboards-sketcher-skateboard-wheels-52mm-99a-set-of-4 (Lấy ảnh)
++ backgroudn film:  https://3.bp.blogspot.com/-nyIW6-eJptU/XFu8UlSiyiI/AAAAAAAAFKo/k6L3mjdaGiwn14FPcTA8PpTHPN6lYVY3ACHMYCw/s1600/black-background-wood-%25E2%259D%25A4-4k-hd-desktop-wallpaper-for-4k-ultra-hd.jpg
+
+- 1 số vấn đề gặp phải
++ Responsive
++ Không hiểu vì sao có 1 số border hiện ra, expect không thấy 
