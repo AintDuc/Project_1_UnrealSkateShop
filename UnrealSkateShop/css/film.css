@@ -29,6 +29,9 @@ li {
   display: flex;
   flex-wrap: wrap;
 }
+video {
+  object-fit: cover;
+}
 
 /********************/
 /********************/
