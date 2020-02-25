@@ -51,12 +51,12 @@ window.addEventListener("scroll", function(e) {
   // }
   // console.log(scrollValue);
   if (scrollValue === 0) {
-    nav.style.transform = "scale(1)";
+    //  nav.style.transform = "scale(1)";
     nav.style.boxShadow = "unset";
     nav.style.display = "block";
   }
   if (scrollValue > scrollTemp) {
-    nav.style.transform = "scale(0.9)";
+    //    nav.style.transform = "scale(0.9)";
     nav.style.boxShadow = "black 2px 4px 2px";
     nav.style.display = "block";
   } else {
@@ -91,7 +91,7 @@ function showBtnTop() {
     }
     // mobile
     if (scrolValue > 400 && width < 576) {
-      btnTop.style.top = "80%";
+      btnTop.style.top = "70%";
       btnTop.style.display = "flex";
     }
     if (scrolValue < 400 && width < 576) {

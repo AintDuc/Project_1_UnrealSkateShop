@@ -751,6 +751,11 @@ footer .row:nth-child(2) li {
 }
 
 /* Moblie responsive - main */
+@media (max-width: 360px) {
+  section {
+    flex-wrap: wrap;
+  }
+}
 @media only screen and (max-width: 576px) {
   /* thanh nav */
   nav {
@@ -770,6 +775,7 @@ footer .row:nth-child(2) li {
     border: unset;
   }
   /* slides - show */
+
   #next-btn {
     padding: 10px;
     font-size: 25px;
@@ -784,9 +790,17 @@ footer .row:nth-child(2) li {
     left: 0;
   }
   #slides-show {
-    min-height: 190px;
+    min-height: 160px;
+    margin-top: 0px;
   }
-
+  #slides-show {
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    z-index: 3;
+    height: unset;
+    object-fit: scale-down;
+  }
   main {
     margin-bottom: 400px;
   }
@@ -875,8 +889,13 @@ footer .row:nth-child(2) li {
     padding-right: 6px;
     font-size: 10px;
   }
+
   footer .row:nth-child(2) li {
+    width: 30px;
     margin-right: 10px;
+  }
+  footer .row:nth-child(2) li .fab {
+    font-size: 20px;
   }
   footer .row:nth-child(3) p {
     color: white;
@@ -912,6 +931,17 @@ footer .row:nth-child(2) li {
   footer .row:nth-child(2) .col:nth-child(2) ul li:first-child img {
     height: 80%;
     width: 150%;
+  }
+  footer .row:first-child {
+    margin-top: unset;
+  }
+
+  footer .row {
+    margin-bottom: unset;
+  }
+  footer .row:nth-child(3) p {
+    font-weight: 500;
+    font-size: 10px;
   }
 }
 
