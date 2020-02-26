@@ -558,6 +558,9 @@ main {
 /********************/
 /********************/
 /* Phần Footer */
+i.fab {
+  transition: 0.5s;
+}
 i.fab:hover {
   color: yellow;
 }
