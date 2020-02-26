@@ -13,12 +13,12 @@ window.addEventListener("scroll", function(e) {
   var scrollVal = document.documentElement.scrollTop;
 
   if (scrollVal === 0) {
-    nav.style.transform = "scale(1)";
+    // nav.style.transform = "scale(1)";
     nav.style.boxShadow = "unset";
     nav.style.display = "block";
   }
   if (scrollVal > scrollTemp) {
-    nav.style.transform = "scale(0.9)";
+    // nav.style.transform = "scale(0.9)";
     nav.style.boxShadow = "black 2px 4px 2px";
     nav.style.display = "block";
   } else {

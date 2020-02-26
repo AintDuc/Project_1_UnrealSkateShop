@@ -425,8 +425,11 @@ button {
 /* moblie responsive - image page - width*/
 @media only screen and (max-width: 576px) {
   /* Left */
+  .d-flex {
+    flex-wrap: wrap;
+  }
   #left {
-    width: 30%;
+    width: 100%;
   }
 
   .img-logo {
@@ -448,13 +451,25 @@ button {
     font-size: 10px;
     font-weight: 100;
   }
+  #left .item-content ul {
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
   #left .item-content li {
     margin-right: 0;
     margin-top: 0;
   }
+  #some-infor {
+    padding: 20px;
+  }
+  #left .item-footer {
+    justify-content: center;
+  }
   /* right */
   #right {
-    width: 70%;
+    border-left: unset;
+    width: 100%;
   }
   .animation {
     transform: scale(0.4);
