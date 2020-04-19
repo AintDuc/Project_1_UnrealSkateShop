@@ -127,6 +127,16 @@ input[type="text"] {
   font-size: 20px;
   transition: 0.5s;
 }
+input[type="password"] {
+  background-color: rgba(0, 0, 0, 0.089);
+  color: rgba(255, 255, 255, 0.699);
+  border: none;
+  border-bottom: 2px solid #92ac1f;
+  padding: 15px 0px;
+  outline: unset;
+  font-size: 20px;
+  transition: 0.5s;
+}
 input[type="text"]:hover {
   background-color: rgba(0, 0, 0, 0.438);
 }
