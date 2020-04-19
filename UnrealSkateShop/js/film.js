@@ -7,8 +7,8 @@ function closeOldVideo(old) {
 }
 // còn lỗi chỗ âm thanh
 
-Array.from(listItem).forEach(function(item) {
-  item.addEventListener("click", function(e) {
+Array.from(listItem).forEach(function (item) {
+  item.addEventListener("click", function (e) {
     myOverlay.style.display = "initial";
     if (Array.from(listItem).indexOf(item) === 0) {
       myOverlay.childNodes[3].childNodes[1].style.display = "initial";
@@ -41,7 +41,7 @@ Array.from(listItem).forEach(function(item) {
 });
 
 // khi ấn nút close chuyện gì xảy ra
-btnClose.addEventListener("click", function(e) {
+btnClose.addEventListener("click", function (e) {
   // cha nó đóng
   this.parentNode.style.display = "none";
   // tắt âm và ẩn video
@@ -138,8 +138,8 @@ let device_width = window.screen.width;
 if (device_width <= 576) {
   myOverlay.id = "overlay_responsive";
 
-  Array.from(listItem).forEach(function(item) {
-    item.addEventListener("click", function(e) {
+  Array.from(listItem).forEach(function (item) {
+    item.addEventListener("click", function (e) {
       myOverlay.style.display = "initial";
       if (Array.from(listItem).indexOf(item) === 0) {
         myOverlay.childNodes[3].childNodes[1].style.display = "initial";
@@ -172,7 +172,7 @@ if (device_width <= 576) {
   });
 
   // khi ấn nút close chuyện gì xảy ra
-  btnClose.addEventListener("click", function(e) {
+  btnClose.addEventListener("click", function (e) {
     // cha nó đóng
     this.parentNode.style.display = "none";
     // tắt âm và ẩn video
@@ -208,8 +208,8 @@ if (device_width <= 576) {
 if (device_width <= 576 && device_width <= 768) {
   myOverlay.id = "overlay_responsive";
 
-  Array.from(listItem).forEach(function(item) {
-    item.addEventListener("click", function(e) {
+  Array.from(listItem).forEach(function (item) {
+    item.addEventListener("click", function (e) {
       myOverlay.style.display = "initial";
       if (Array.from(listItem).indexOf(item) === 0) {
         myOverlay.childNodes[3].childNodes[1].style.display = "initial";
@@ -242,7 +242,7 @@ if (device_width <= 576 && device_width <= 768) {
   });
 
   // khi ấn nút close chuyện gì xảy ra
-  btnClose.addEventListener("click", function(e) {
+  btnClose.addEventListener("click", function (e) {
     // cha nó đóng
     this.parentNode.style.display = "none";
     // tắt âm và ẩn video
